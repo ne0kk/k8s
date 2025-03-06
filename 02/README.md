@@ -24,6 +24,17 @@
                     - containerPort: 8080
 
 2. Запустим создание пода 
+![image](https://github.com/user-attachments/assets/c7d1f90e-5c03-40d1-b86f-061293d2d3c1)
+
+3. Выполним port-forward
+
+![image](https://github.com/user-attachments/assets/acbfbc8b-7ec4-4501-8196-bfbfd0aeea58)
+
+4. Подключимся к поду
+![image](https://github.com/user-attachments/assets/24b23c6a-0b5a-45ef-b85c-b8c140454a7b)
+
+![image](https://github.com/user-attachments/assets/0e020556-fab7-4555-ac1e-660a9e10c522)
+
 
 ------
 
