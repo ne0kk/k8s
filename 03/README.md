@@ -58,11 +58,11 @@
 ![image](https://github.com/user-attachments/assets/81b773d4-ae93-42b5-aee4-1c6c0d60d5c7)
 
 2. Добавим еще однй реплику.
-3. 
+ 
 ![image](https://github.com/user-attachments/assets/6ab9230b-9277-451d-8b97-eef83588c929)
 
 4. Создадим сервис для подов
-5. 
+
 ![image](https://github.com/user-attachments/assets/e041b347-e3fb-43d8-b461-b2dd6bdc83f7)
 
 6. Создадим отдельный POD для проверки из поднего доступа к приложениям созданым ранее
