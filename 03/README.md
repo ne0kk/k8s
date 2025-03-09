@@ -55,7 +55,9 @@
 по ответам на ДЗ другим студентам, понял что надо сменить порт nginx в контейнере 
 
 ![image](https://github.com/user-attachments/assets/5d628b48-4cb6-400a-9da1-38fb905bcce0)
+
 ![image](https://github.com/user-attachments/assets/81b773d4-ae93-42b5-aee4-1c6c0d60d5c7)
+
 
 2. Добавим еще однй реплику.
  
