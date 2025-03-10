@@ -94,4 +94,22 @@
 ------
 ### Ответ
 
+1. Создадим deployment для старта nginx ипроверкой инит контейнером с busybox.
+   Проверять будем с помощью nslookup по рекомедациям из статьи с помощию цикла until 
+   
+![image](https://github.com/user-attachments/assets/bca26196-b114-40b6-943e-436eb33ab431)
+![image](https://github.com/user-attachments/assets/b6fa7f15-9a6d-4a03-a46f-ac14185d08d1)
+
+
+2. Убедимся что под не стартует и не в ошибке. Посмотрим логи busybox
+
+![image](https://github.com/user-attachments/assets/a756ac29-1a9e-40d1-bfc0-d23aaaaa6cc5)
+
+
+3. Создадим сервис с именем который проверяет наш инициализирующий контейнер nslookup'ом наличие сервиса в ДНС
+
+![image](https://github.com/user-attachments/assets/6cc70106-3399-4de0-ab30-4729f68d4f54)
+
+
+   
 ------
