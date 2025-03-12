@@ -23,57 +23,56 @@
 
 -----
 ### Ответ
-1. Созданы Deployment и сервис для него  состоящий из 2 контейнеров в количестве 3 реплик 
-      apiVersion: v1
-      kind: Service
-      metadata:
-        name: netology-svc-multiport
-        namespace: task4
-      spec:
-        ports:
-          - name: http-nginx
-            port: 9001
-            targetPort: nginx-port
-          - name: http-multitool
-            port: 9002
-            targetPort: multitool-port
-        selector:
-          app: netology04
-        type: ClusterIP
-      
-      ---
-      
-      apiVersion: apps/v1
-      kind: Deployment
-      metadata:
-        name: netology-dep-multiport
-        labels:
-         app: netology04
-        namespace: task4
-      spec:
-       selector:
-        matchLabels:
-         app: netology04
-       replicas: 3
-       template :
-        metadata:
-         labels:
-          app: netology04
-        spec:
-         containers:
-          - name: nginx
-            image: nginx:latest
-            ports:
-            - containerPort: 80
-              name: nginx-port
-          - name: multitool
-            image: wbitt/network-multitool:latest
-            ports:
-            - containerPort: 8080
-              name: multitool-port 
-            env:
-            - name: HTTP_PORT
-              value: "8080"
+1. Созданы Deployment и сервис для него  состоящий из 2 контейнеров в количестве 3 реплик
+   
+                        apiVersion: v1
+                        kind: Service
+                        metadata:
+                          name: netology-svc-multiport
+                          namespace: task4
+                        spec:
+                          ports:
+                            - name: http-nginx
+                              port: 9001
+                              targetPort: nginx-port
+                            - name: http-multitool
+                              port: 9002
+                              targetPort: multitool-port
+                          selector:
+                            app: netology04
+                          type: ClusterIP
+                            ----
+                        apiVersion: apps/v1
+                        kind: Deployment
+                        metadata:
+                          name: netology-dep-multiport
+                          labels:
+                           app: netology04
+                          namespace: task4
+                        spec:
+                         selector:
+                          matchLabels:
+                           app: netology04
+                         replicas: 3
+                         template :
+                          metadata:
+                           labels:
+                            app: netology04
+                          spec:
+                           containers:
+                            - name: nginx
+                              image: nginx:latest
+                              ports:
+                              - containerPort: 80
+                                name: nginx-port
+                            - name: multitool
+                              image: wbitt/network-multitool:latest
+                              ports:
+                              - containerPort: 8080
+                                name: multitool-port 
+                              env:
+                              - name: HTTP_PORT
+                                value: "8080"
 
 ![image](https://github.com/user-attachments/assets/b34c9c8d-bf2c-4b3d-8e2c-c43d8718f611)
 
