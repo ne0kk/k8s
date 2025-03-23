@@ -20,7 +20,9 @@
 ### Ответ
 
 Создадим serviceaccount 
+
 ![image](https://github.com/user-attachments/assets/9446f63c-2ccb-465b-bf84-f39e03df7ea0)
+
 Создадим токен для serviceaccount
                     apiVersion: v1
                     kind: Secret
