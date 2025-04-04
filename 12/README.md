@@ -76,4 +76,14 @@
 Проверим доступность пода
 ![image](https://github.com/user-attachments/assets/76471127-ae91-4357-8ab1-3fefbfb0acaa)
 
+Настроим loadBalancer YC
+![image](https://github.com/user-attachments/assets/35443f5b-784f-4d32-8838-bf7074ccf761)
+
+Проверим доступность нашего пода по новому виртуальному IP
+![image](https://github.com/user-attachments/assets/d482a67a-ca6a-4e18-b36e-ebc0132499b9)
+
+
+
+
+
 -----
