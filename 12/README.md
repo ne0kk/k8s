@@ -14,6 +14,8 @@
 1. [Инструкция по установке kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/).
 2. [Документация kubespray](https://kubespray.io/).
 3. [Инструкция по которой настраивал](https://clo.ru/help/containerization/installation/rke2)
+4. [Инструкция по keepliveed](https://github.com/BigKAA/youtube/blob/master/kubeadm/ha_cluster.md)
+5. [Инструкция по настройке keepliveed в НС](https://yandex.cloud/ru/docs/tutorials/routing/bms-vrf-routing)
 -----
 
 ### Задание 1. Установить кластер k8s с 1 master node
