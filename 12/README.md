@@ -39,6 +39,7 @@
 ![image](https://github.com/user-attachments/assets/d4835057-f914-4c19-9ad2-f5b6bfbae363)
 
 Проверим статус на мастере
+
 ![image](https://github.com/user-attachments/assets/e000be43-db0e-4245-ae93-afa36bbb33a6)
 
 Запустим под на кластере. 
@@ -72,8 +73,11 @@
 ![image](https://github.com/user-attachments/assets/d1ef71bc-a497-4d07-bdf4-b21b80c009c9)
 
 Остановим 1 ноду
+
 ![image](https://github.com/user-attachments/assets/8eedfd26-d567-4d5d-8bfd-d9fb8654f110)
+
 Проверим доступность пода
+
 ![image](https://github.com/user-attachments/assets/76471127-ae91-4357-8ab1-3fefbfb0acaa)
 
 Настроим loadBalancer YC
