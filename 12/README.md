@@ -13,7 +13,7 @@
 
 1. [Инструкция по установке kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/).
 2. [Документация kubespray](https://kubespray.io/).
-
+3. [Инструкция по которой настраивал](https://clo.ru/help/containerization/installation/rke2)
 -----
 
 ### Задание 1. Установить кластер k8s с 1 master node
@@ -25,6 +25,24 @@
 
 -----
 ### Ответ 
+1.  С помощью terraform развернем в облаке 3 сервера для мастер нод и 4 сервера для рабочих нод
+![image](https://github.com/user-attachments/assets/4839fc55-ebc2-4bcf-982d-2c48b387929c)
+
+![image](https://github.com/user-attachments/assets/dca6b8bc-2934-4b0d-813e-27b0fae0adef)
+Установим RKE на мастере
+![image](https://github.com/user-attachments/assets/41b42327-886b-4fc6-ac6d-1b9393811514)
+Выполним команды на мастере
+![image](https://github.com/user-attachments/assets/bc29f053-8f3e-4e10-9379-73d5a80694f0)
+Выполним команды на рабочих нодах
+![image](https://github.com/user-attachments/assets/d4835057-f914-4c19-9ad2-f5b6bfbae363)
+
+Проверим статус на мастере
+![image](https://github.com/user-attachments/assets/e000be43-db0e-4245-ae93-afa36bbb33a6)
+
+Запустим под на кластере. 
+![image](https://github.com/user-attachments/assets/17ebedc9-8ba4-42ed-8181-1774787d3328)
+![image](https://github.com/user-attachments/assets/9940c168-9986-421c-ab0a-a6629419f1d8)
+
 
 -----
    
@@ -43,5 +61,17 @@
 
 -----
 ### Ответ 
+1. Добавим к нашему кластеру мастер ноды
+   
+![image](https://github.com/user-attachments/assets/13ce5317-5c26-4a94-8820-988294893ecd)
+
+![image](https://github.com/user-attachments/assets/184936c3-b57e-4bd6-bcd9-5176268269b9)
+
+![image](https://github.com/user-attachments/assets/d1ef71bc-a497-4d07-bdf4-b21b80c009c9)
+
+Остановим 1 ноду
+![image](https://github.com/user-attachments/assets/8eedfd26-d567-4d5d-8bfd-d9fb8654f110)
+Проверим доступность пода
+![image](https://github.com/user-attachments/assets/76471127-ae91-4357-8ab1-3fefbfb0acaa)
 
 -----
