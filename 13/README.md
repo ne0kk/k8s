@@ -41,7 +41,7 @@ EOF
 cat <<EOF >>config.agent.yaml 
 
 server: https://10.0.2.33:9345
-token: K10f5fc5aad6af65920b8f4c8408d0de24fb3635d997870fa7b19daf9a30bdc892c::server:0e3e9a956b560d8b6feb3caf994247f1
+token: 
 node-ip:
   - "10.0.2.7"
 node-external-ip:
